@@ -1,4 +1,3 @@
-# streamlit_app.py
 import streamlit as st
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
@@ -63,7 +62,6 @@ def detect_and_predict_mask(image, model):
     
     return results, image
 
-# Streamlit UI
 # Streamlit UI
 st.set_page_config(page_title="MaskGuard AI", page_icon="🛡️", layout="wide")
 
